@@ -12,7 +12,8 @@ def start_game():
     life_PC = 20
     protection = 2
 
-    print("Bienvenue dans le jeu de rôle !")
+    print("\t\t\t\t\t\t\t\tBienvenue dans le jeu de rôle !")
+    print("\t\t\t\t\t\t\t\t********************************")
     
     while life_Gamer > 0 and life_PC > 0 :
         print(f"Vie du Joueur : {life_Gamer}")
@@ -38,7 +39,6 @@ def start_game():
         else:
             print("Choix invalide. Vous perdez votre tour.")
         
-        print("****************************************")
         
         if life_PC <= 0:
             break
@@ -51,7 +51,6 @@ def start_game():
         else:
             print("Votre bouclier a bloqué l'attaque de l'ordinateur !")
         
-        print("****************************************")
 
             
     if life_PC <= 0:
